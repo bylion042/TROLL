@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: white;
+  font-family: 'Comic Sans MS', sans-serif;
+  text-align: center;
+}
+
+/* ALL ABOUT HEADER  */
+.header {
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.home-link {
+  left: 20px;
+}
+
+.center-link {
+  margin: 0 auto;
+}
+
+.header a {
+  color: #111;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 18px;
+  transition: color 0.2s ease;
+}
+
+
+
+
+.nav {
+  display: none;
+}
+
+.container {
+  padding: 30px 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.title {
+  font-size: 3rem;
+  margin-top: 2rem;
+  text-transform: lowercase;
+}
+
+.step {
+  margin: 20px 0;
+}
+
+.step-header {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.step-body {
+  background-color: #2d2d2d;
+  padding: 15px;
+  font-size: 0.95rem;
+  /* border-top-right-radius: 10px; */
+  /* border-top-left-radius: 10px; */
+  margin-top: -5px;
+}
+
+.troll-img {
+  width: 50%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.swap-img {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+/* Styles for small screens */
+@media only screen and (max-width: 768px) {
+
+  body {
+    width: 100%;
+  }
+
+
+  .header {
+    display: none;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-transform: lowercase;
+  }
+
+
+}
