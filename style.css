@@ -1131,6 +1131,7 @@ div.troll__left-hand {
 		margin: 5px 0;
 		font-size: 15px;
 		color: #000;
+		font-weight: bold;
 	}
 
 	/* @media only screen and (max-width: 768px) {
